@@ -18,7 +18,17 @@
       </usages-collector>
     </session>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="467" />
     <option name="y" value="3" />
     <option name="width" value="728" />
@@ -65,8 +75,11 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="3" width="728" height="728" extended-state="1" />
+    <frame x="467" y="3" width="728" height="728" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4869565" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -83,5 +96,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
 </project>
