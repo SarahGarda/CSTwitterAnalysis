@@ -43,5 +43,5 @@ def collect_by_streaming():
     stream=tweepy.Stream(auth = connexion.auth, listener=listener)
     stream.filter(track=['Emmanuel Macron'])
 
-collect_by_streaming()
+#collect_by_streaming()
 

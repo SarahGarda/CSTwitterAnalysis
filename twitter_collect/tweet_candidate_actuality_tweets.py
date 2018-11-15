@@ -5,6 +5,6 @@ def get_tweets_from_candidates_search_queries(queries, twitter_api):
     :return: shows the tweets that correspond to the different keywords
     '''
     for keyword in queries:
-        tweets = twitter_api.search("keyword",language="french",rpp=100)
+        tweets = twitter_api.search("keyword",language="french",rpp=10)
         for tweet in tweets:
             print(tweet.text)
