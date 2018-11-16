@@ -9,7 +9,7 @@ def collect():
         #print(tweet.text)
     return(tweets)
 
-#print(collect())
+print(collect())
 
 def collect_by_user(user_id):
     connexion = twitter_setup()

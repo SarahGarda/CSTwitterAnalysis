@@ -30,5 +30,6 @@ def sentiment_percentage(data):
     print("Percentage of positive tweets: {}%".format(len(pos_tweets)*100/len(data)))
     print("Percentage of neutral tweets: {}%".format(len(neu_tweets)*100/len(data)))
     print("Percentage de negative tweets: {}%".format(len(neg_tweets)*100/len(data)))
+    return([len(pos_tweets)*100/len(data),len(neu_tweets)*100/len(data),len(neg_tweets)*100/len(data)])
 
 print(sentiment_percentage(file))
