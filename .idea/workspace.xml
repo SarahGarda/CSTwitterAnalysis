@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db88959e-edc1-4adf-90bd-e84e80cf1807" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet_text/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweet_text/test_textblob.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,42 +20,60 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="22" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="15" />
           <entry key="dummy" value="5" />
-          <entry key="py" value="5273" />
+          <entry key="py" value="5805" />
           <entry key="txt" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="97" />
-          <entry key="Python" value="5288" />
+          <entry key="Python" value="5820" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweet_text2/textblob_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state>
+              <caret selection-end-column="22" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tweet_text2/sentiment_analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,11 +115,12 @@
         <option value="$PROJECT_DIR$/tweet_analysis/analysis.py" />
         <option value="$PROJECT_DIR$/credentials.py" />
         <option value="$PROJECT_DIR$/twitter_collect/twitter_connexion_setup.py" />
-        <option value="$PROJECT_DIR$/twitter_collect/twitter_collection.py" />
         <option value="$PROJECT_DIR$/tweet_text/test_textblob.py" />
         <option value="$PROJECT_DIR$/tweet_text2/nltk.py" />
         <option value="$PROJECT_DIR$/tweet_text2/nltk_test.py" />
         <option value="$PROJECT_DIR$/tweet_text2/textblob_test.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/twitter_collection.py" />
+        <option value="$PROJECT_DIR$/tweet_text2/sentiment_analysis.py" />
       </list>
     </option>
   </component>
@@ -170,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.textblob_test">
+  <component name="RunManager" selected="Python.sentiment_analysis">
     <configuration name="nltk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictorclean" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,18 +229,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_textblob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sentiment_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictorclean" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet_text" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweet_text2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet_text/test_textblob.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweet_text2/sentiment_analysis.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -274,19 +293,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.twitter_collection" />
-      <item itemvalue="Python.test_textblob" />
       <item itemvalue="Python.textblob_test" />
       <item itemvalue="Python.nltk" />
       <item itemvalue="Python.nltk_test" />
+      <item itemvalue="Python.sentiment_analysis" />
+      <item itemvalue="Python.twitter_collection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sentiment_analysis" />
+        <item itemvalue="Python.twitter_collection" />
         <item itemvalue="Python.textblob_test" />
         <item itemvalue="Python.nltk_test" />
         <item itemvalue="Python.nltk" />
-        <item itemvalue="Python.test_textblob" />
-        <item itemvalue="Python.test_textblob" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +370,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tweet_text2/textblob_test.py</url>
-          <line>34</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -451,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweet_text2/nltk_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -465,13 +477,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tweet_text2/textblob_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state>
+          <caret selection-end-column="22" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweet_text2/sentiment_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
