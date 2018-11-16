@@ -21,4 +21,5 @@ def tweet_polarity():
 
 
 print(interest_graph())
+#interest_graph has been written before in tweet_analysis.analysis
 print(tweer_polarity)

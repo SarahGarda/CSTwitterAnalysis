@@ -15,6 +15,7 @@ def get_replies_to_candidates(num_candidate):
                     replies.append(tweet.text)
     for elements in replies:
         print(elements)
+    return(replies)
 
 
 def get_retweets_of_candidates(num_candidate):
@@ -23,15 +24,17 @@ def get_retweets_of_candidates(num_candidate):
     :return: shows the re-tweets to the recent tweets of the candidate
     '''
     candidate_tweets=[]
+    retweets_candidate=[]
     connexion=twitter_setup()
     tweets = connexion.user_timeline(id = num_candidate, count = 10)
     for tweet in tweets:
         candidate_tweets.append(tweet.id)
-    for tweet_id in candidate_tweets():
-        print(connexion.retweets(tweet_id))
+    for tweet_id in candidate_tweets:
+        retweets_candidate.append(connexion.retweets(tweet_id))
+    return (retweets_candidate)
 
 from tweepy.streaming import StreamListener
-from twitter_collection import *
+from twitter_collect.twitter_collection import *
 
 
 def candidate_activity_streaming(num_candidate):

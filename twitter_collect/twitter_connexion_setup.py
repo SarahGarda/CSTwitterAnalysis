@@ -17,10 +17,6 @@ def twitter_setup():
     return api
 
 
-import pytest
-"""
-def test_twitter_setup():
-    assert twitter_setup()==tweepy.API(tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET).set_access_token(ACCESS_TOKEN, ACCESS_SECRET))
 
-print(test_twitter_setup())
-"""
+
+
