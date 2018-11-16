@@ -10,6 +10,7 @@ print(file)
 searched_tweets=[status._json for status in file]
 json_file=json.dumps([object for object in searched_tweets])
 tweets=pd.read_json(json_file)
+#this is basically fonctionnalité 4
 
 
 def interest_graph():
