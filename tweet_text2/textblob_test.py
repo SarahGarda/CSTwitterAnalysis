@@ -17,6 +17,10 @@ def collect():
 file=collect()
 
 def get_words(file):
+    '''
+    :param file: the file to analyze
+    :return: the list of lemmatized words in file excluding the most commonly used ones.
+    '''
     words=[]
     for tweet in file:
         interm_words=[]
