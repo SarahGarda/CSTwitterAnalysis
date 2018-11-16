@@ -4,4 +4,5 @@ La fonctionnalité 4 n'a pas été traitée faute de temps, mais il a été néc
 Les fonctionnalités 5 et 6 se trouvent dans le fichier tweet_analysis. On a extrait les informations pertinentes directement dans le graphique.\
 Les fonctionnalités 8 et 9 sont dans le fichier tweet_text2 (nous n'avons pas réussi à effacer notre fichier tweet_text).\
 La fonctionnnalité 10 est dans le fichier data_display.\
-Juliette n'a pas pu faire de commit à cause de disfonctionnement sur git, on a donc tout codé sur l'ordinateur de Sarah.
+Juliette n'a pas pu faire de commit à cause de disfonctionnement sur git, on a donc tout codé sur l'ordinateur de Sarah.\
+Nous n'avons pas trouvé comment afficher la couverture du code avec PyCharm Edu nous avons donc mis uniqument le résultat de l'inspection du code. Le nombre de fonctions non couvertes par pytest est de 3 sur 13 soit 77% de couverture. Le résultat de l'inspection est le fichier html inspection_report.
