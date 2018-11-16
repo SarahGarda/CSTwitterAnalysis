@@ -6,7 +6,7 @@ from twitter_collect.twitter_connexion_setup import *
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
 
-
+#we rewrite collec because we had an importation problem from twitter_collect
 def collect():
     connexion = twitter_setup()
     tweets = connexion.search("Emmanuel Macron",language="french",rpp=100)
@@ -36,4 +36,4 @@ def get_words(file):
         words+=interm_words
     return(words)
 
-print(get_words(file))
+#print(get_words(file))
